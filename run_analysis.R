@@ -3,7 +3,7 @@
 # load the reshape2 package (will be used in STEP 5)
 library(reshape2)
 this.dir <- dirname(parent.frame(2)$ofile)
-setwd("D:/Projects/DataScience/Coursera Certification/Data Science Specialization/Assignments/coursera-getting-and-cleaning-data/")
+setwd(this.dir)
 
 getwd()
 ## 2) Merges the training and the test sets to create one data set
